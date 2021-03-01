@@ -1,0 +1,11 @@
+.about {
+  height: 70vh;
+  text-align: center;
+  margin: 70px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}

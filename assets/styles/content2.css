@@ -1,0 +1,20 @@
+.content-2 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto 20px;
+}
+.content-2 > div {
+  width: 25%;
+}
+
+h1 {
+  text-align: center;
+}
+img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  padding: 10px;
+}

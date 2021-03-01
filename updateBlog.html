@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Update your blog post</h1>
+    <form id="update-form" onsubmit="event.preventDefault(); updateDancePost()">
+      <h3>Blog Information</h3>
+        ID</br>
+      <input type="text" name="id" placeholder="ID" required />
+      
+      header</br>
+      <input type="text" name="header" /><br />
+
+      title<br />
+      <input type="text" name="title" /><br />
+
+      description<br />
+      <textarea name="description"></textarea><br />
+
+      body<br />
+      <textarea name="body"></textarea><br />
+
+      image<br />
+      <textarea name="image"></textarea><br />
+
+      category<br />
+      <textarea name="category"></textarea><br />
+
+      video<br />
+      <textarea name="video"></textarea><br />
+      <button type="submit">Update Post</button>
+    </form>
+
+    <script src="./assets/scripts/updateDance.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.contact {
+  height: 80vh;
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 480px;
+  align-items: center;
+}
+p {
+  text-align: center;
+  color: black;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: black;
+}
+
+.wrapper {
+  padding: 50px;
+  background-color: white;
+  border: 2px solid black;
+  height: 100%;
+}
+
+.footer {
+  height: 70px;
+  background-color: black;
+  margin: 0;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link a:hover {
+  color: tan;
+}
